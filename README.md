@@ -36,6 +36,13 @@ psutil
 - Prime Number Math Check
 - Floating Point Math Check
 -  Math Test - FMA3 (Fused Multiply-Add 3-operand)<br>
+
+# Intel CPU Cache Memory Latency Checker
+
+Available for both Linux and WIndows (MLC.exe):
+
+https://www.intel.com/content/www/us/en/developer/articles/tool/intelr-memory-latency-checker.html
+<br><br>
  
 ## Software License:
 
