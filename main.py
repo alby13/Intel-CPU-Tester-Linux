@@ -157,7 +157,7 @@ class ProcessorTesterApp:
         self.run_all_button = ttk.Button(self.main_frame, text="Run All Tests", command=self.run_all_tests)
         self.run_all_button.pack(pady=5)
 
-        # --- IMC Test Variables (like C++ globals) ---
+        # --- IMC Test Variables ---
         self.arg_exp_memory = 0
         self.arg_memory_size_tolerance = 0
         self.skip_memory_size_test = 0
@@ -179,7 +179,7 @@ class ProcessorTesterApp:
         self.display_only_fp = False # Default to comparing results
 
         # --- FMA3/Math Test Variables ---
-        self.fma_timer = 5 # Default to 5 seconds, as in C++ code
+        self.fma_timer = 5 # Default to 5 seconds
 
         # Create log directory if it doesn't exist
         os.makedirs("logs", exist_ok=True)
@@ -971,7 +971,7 @@ class ProcessorTesterApp:
         end_time = start_time + duration
         ops_count = 0
         error_count = 0
-        n = 2500  #  Matches the 'n' value in the C++ code
+        n = 2500
 
         #Basic Floating Point operations
         while time.time() < end_time:
