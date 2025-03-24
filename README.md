@@ -1,5 +1,7 @@
 # Intel CPU Tester for Linux
 Linux Intel Processor Tester is meant to be a Linux option to the Windows version of Intel Processor Diagnostic Tool ( IPDT)
+
+Written in Python 3.10+
 <br><br>
 
 ## Please note: 
