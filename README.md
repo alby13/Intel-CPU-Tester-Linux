@@ -16,6 +16,10 @@ Requirements:
 py-cpuinfo
 psutil
 ```
+<br>
+
+After running, a log file will be created: processor_test_log.txt
+<br><br>
 
 ## Things that are checked:
 
